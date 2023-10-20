@@ -5,7 +5,7 @@ import boto3
 import json
 
 
-class TestMyCode(unittest.TestCase):
+class UnitTestCode(unittest.TestCase):
 
     def unit_test_s3(self, expected_result, key, resource, dist_bucket, s3_client):
         print(resource, key)

@@ -13,8 +13,8 @@ or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
 
 Happy coding!
 
-bucket 2 (usu-cs5250-global-requests)
-bucket 3 (usu-cs5250-global-web)
+1. bucket 2 (usu-cs5250-global-requests)
+2. bucket 3 (usu-cs5250-global-web)
 
 Examples:
 

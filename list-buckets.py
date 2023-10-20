@@ -4,10 +4,10 @@ import argparse
 import unittest
 import unit_test
 
-unit_test = unit_test.TestMyCode()
-
 from unittest.mock import Mock, patch
 from io import BytesIO
+
+unit_test = unit_test.UnitTestCode()
 
 parser = argparse.ArgumentParser()
 
