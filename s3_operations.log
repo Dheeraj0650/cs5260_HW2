@@ -1,0 +1,57 @@
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:s3_operations:Processing object: 1612306368338
+INFO:s3_operations:Stored object with key: widgets/mary-matthews/8123f304-f23f-440b-a6d3-80e979fa4cd6
+INFO:s3_operations:Processing object: 1612306369227
+INFO:s3_operations:Stored object with key: widgets/john-jones/ad0bb9e1-28e9-46e0-ad08-8192f4d3b6c6
+INFO:s3_operations:Processing object: 1612306369451
+INFO:s3_operations:Stored object with key: widgets/john-jones/2b8186fc-11a4-4b97-b048-571fe200e646
+INFO:s3_operations:Processing object: 1612306369713
+INFO:s3_operations:Stored object with key: widgets/mary-matthews/3b7fef78-f757-424d-9c0c-431768022528
+INFO:s3_operations:Processing object: 1612306369907
+INFO:s3_operations:Stored object with key: widgets/sue-smith/6cea7243-924a-4bc9-9779-8bc89e91acdf
+INFO:s3_operations:Processing object: 1612306370099
+INFO:s3_operations:Stored object with key: widgets/john-jones/5c94f104-a9b3-4fed-a039-2cc4c631d042
+INFO:s3_operations:Processing object: 1612306370344
+INFO:s3_operations:Stored object with key: widgets/mary-matthews/0510d371-0191-43d9-81d5-5a163659ae6f
+INFO:s3_operations:Processing object: 1612306370542
+INFO:s3_operations:Processing object: 1612306370839
+INFO:s3_operations:Stored object with key: widgets/john-jones/1dbcba17-aff2-4b62-9d8e-0e6c2b58ed86
+INFO:s3_operations:Processing object: 1612306371037
+INFO:s3_operations:Processing object: 1612306371375
+INFO:s3_operations:Processing object: 1612306371675
+INFO:s3_operations:Processing object: 1612306371974
+INFO:s3_operations:Stored object with key: widgets/mary-matthews/6984abeb-5b24-42eb-93cc-3a5bef6b4b8a
+INFO:s3_operations:Processing object: 1612306372166
+INFO:s3_operations:Processing object: 1612306372496
+INFO:s3_operations:Stored object with key: widgets/henry-hops/3750be35-9074-4879-bb43-759d38263868
+INFO:s3_operations:Processing object: 1612306372686
+INFO:s3_operations:Stored object with key: widgets/henry-hops/deab01f2-0075-4a11-87e1-21cbea5c0c7f
+INFO:s3_operations:Processing object: 1612306372894
+INFO:s3_operations:Processing object: 1612306373189
+INFO:s3_operations:Processing object: 1612306373502
+INFO:s3_operations:Processing object: 1612306373799
+INFO:s3_operations:Processing object: 1612306374092
+INFO:s3_operations:Processing object: 1612306374390
+INFO:s3_operations:Stored object with key: widgets/mary-matthews/64542834-2dc1-469f-b3c4-93d124672a4a
+INFO:s3_operations:Processing object: 1612306374392
+ERROR:s3_operations:Error processing object 1612306374392: Expecting value: line 1 column 1 (char 0)
+INFO:s3_operations:Processing object: 1612306374590
+INFO:s3_operations:Processing object: 1612306374890
+INFO:s3_operations:Stored object with key: widgets/john-jones/b71b5b2e-610a-402c-8341-a69d8d62747e
+INFO:s3_operations:Processing object: 1612306375082
+INFO:s3_operations:Stored object with key: widgets/sue-smith/d2d540b0-5999-4d43-8f09-b8f528a0f032
+INFO:s3_operations:Processing object: 1612306375135
+INFO:s3_operations:Processing object: 1612306375282
+INFO:s3_operations:Processing object: 1612306375653
+INFO:s3_operations:Stored object with key: widgets/sue-smith/08254284-3fd1-4232-905f-b3730a7c6b8c
+INFO:s3_operations:Processing object: 1612306375850
+INFO:s3_operations:Stored object with key: widgets/mary-matthews/7f0bfd22-876f-42f2-937d-cdf048caec2a
+INFO:s3_operations:Processing object: 1612306375892
+ERROR:s3_operations:Error processing object 1612306375892: 'owner'
+INFO:s3_operations:Processing object: 1612306375912
+INFO:s3_operations:Processing object: 1612306376056
+INFO:s3_operations:Processing object: 1612306376404
+INFO:s3_operations:Stored object with key: widgets/sue-smith/e50b4381-4332-438f-bcec-bd2b8c0fa5ed
+INFO:s3_operations:Processing object: 1612306377574
+INFO:s3_operations:Processing object: test-object.json
+INFO:s3_operations:Stored object with key: widgets/test-user/123
