@@ -45,6 +45,8 @@ if 'Contents' in objects:
                     key  = f'widgets/{object_content["owner"].lower().replace(" ", "-")}/{object_content["widgetId"]}'
                     response = s3_client.put_object(Bucket=bucket_name_3, Key=key, Body=json.dumps(object_content))
                     unit_test.unit_test_s3(object_content, obj['Key'], bucket_name_2, bucket_name_3, s3_client)
+                    s3_client.delete_object(Bucket=bucket_name_2, Key=obj['Key'])
+                    
                 elif(storage == 'Dynamodb'):
                     data = {
                         'widget_id': {'S': object_content['widgetId']},
@@ -59,8 +61,8 @@ if 'Contents' in objects:
                     
                     response = dynamodb_client.put_item(TableName=table_name, Item=data)
                     unit_test.unit_test_dynamodb(data, obj['Key'], table_name, bucket_name_3, dynamodb_client, s3_client)
-
-            
+                    s3_client.delete_object(Bucket=bucket_name_2, Key= obj['Key'])
+                    
         except Exception as e:
             print(f'Error: {e}')
             
